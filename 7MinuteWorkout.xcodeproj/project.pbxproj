@@ -136,6 +136,8 @@
 		B62C20FE17481EAB007229CA /* resting.png in Resources */ = {isa = PBXBuildFile; fileRef = B62C20FD17481EAB007229CA /* resting.png */; };
 		B62C210117484646007229CA /* FliteTTS.m in Sources */ = {isa = PBXBuildFile; fileRef = B62C210017484646007229CA /* FliteTTS.m */; };
 		B62C210317484A16007229CA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62C210217484A16007229CA /* AVFoundation.framework */; };
+		B6C7B0AB17487C4B00A13E57 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C7B0AA17487C4B00A13E57 /* icon.png */; };
+		B6C7B0AD17487C5400A13E57 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C7B0AC17487C5400A13E57 /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -342,6 +344,8 @@
 		B62C20FF17484646007229CA /* FliteTTS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FliteTTS.h; path = "sfoster-iphone-tts/Classes/FliteTTS.h"; sourceTree = SOURCE_ROOT; };
 		B62C210017484646007229CA /* FliteTTS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FliteTTS.m; path = "sfoster-iphone-tts/Classes/FliteTTS.m"; sourceTree = SOURCE_ROOT; };
 		B62C210217484A16007229CA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B6C7B0AA17487C4B00A13E57 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		B6C7B0AC17487C5400A13E57 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -362,6 +366,8 @@
 		B62C1F98174812E9007229CA = {
 			isa = PBXGroup;
 			children = (
+				B6C7B0AC17487C5400A13E57 /* icon@2x.png */,
+				B6C7B0AA17487C4B00A13E57 /* icon.png */,
 				B62C1FD2174816A6007229CA /* images */,
 				B62C1FAA174812E9007229CA /* 7MinuteWorkout */,
 				B62C1FA3174812E9007229CA /* Frameworks */,
@@ -772,6 +778,8 @@
 				B62C20F7174816ED007229CA /* us_pos.tree in Resources */,
 				B62C20FC17481919007229CA /* jumping-jacks.png in Resources */,
 				B62C20FE17481EAB007229CA /* resting.png in Resources */,
+				B6C7B0AB17487C4B00A13E57 /* icon.png in Resources */,
+				B6C7B0AD17487C5400A13E57 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1004,6 +1012,7 @@
 				B62C1FD1174812E9007229CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
