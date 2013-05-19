@@ -15,8 +15,8 @@
 
 @implementation FirstViewController
 
-#define kExerciseDuration 5.0
-#define kRestDuration 5.0
+#define kExerciseDuration 30.0
+#define kRestDuration 10.0
 
 - (void)viewDidLoad
 {
