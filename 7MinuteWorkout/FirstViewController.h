@@ -30,6 +30,7 @@
 @property IBOutlet UILabel      *timeRemainingLabel1;
 @property IBOutlet UILabel      *timeRemainingLabel;
 @property IBOutlet UIProgressView     *timeRemainingProgress;
+@property IBOutlet UILabel      *maintitle;
 
 - (IBAction) startButton:(id)sender;
 

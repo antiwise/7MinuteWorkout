@@ -82,6 +82,7 @@
                     <connections>
                         <outlet property="allExercisesImageView" destination="6cJ-TI-XSu" id="x3V-Yc-mGG"/>
                         <outlet property="currentExerciseImageView" destination="9go-UG-Jej" id="o7t-rR-c74"/>
+                        <outlet property="maintitle" destination="Fsl-wG-veC" id="SBL-YS-Tdd"/>
                         <outlet property="startButton" destination="Zlg-gd-rvC" id="kT1-07-Jkq"/>
                         <outlet property="timeRemainingLabel" destination="1QY-GT-8sp" id="khk-hz-CUD"/>
                         <outlet property="timeRemainingLabel1" destination="EwB-Jv-CLt" id="oGE-kK-EeD"/>
@@ -162,6 +163,7 @@
                 <relationship kind="action" name="startButton:"/>
                 <relationship kind="outlet" name="allExercisesImageView" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="currentExerciseImageView" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="maintitle" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="startButton" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="timeRemainingLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="timeRemainingLabel1" candidateClass="UILabel"/>
